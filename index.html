@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>lab9</title>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/styles.css">
+
+		<!--you can also place internal styles here; you would place these within <style> tags-->
+    <!-- link to data -->
+    <script type="text/javascript" src="data/megacities.js"></script>
+
+    <!-- link to leaflet styles -->
+    <link rel="stylesheet" type="text/css" href="lib/leaflet/leaflet.css" />
+    <!-- link to leaflet scripts -->
+    <script type="text/javascript" src="lib/leaflet/leaflet.js"></script>
+    </head>
+
+    <body>
+        <!--put your initial page content here-->
+        <div id="div1">
+        	This is inside basic html container
+        	<p> Q2 - HTML is executed in top-to-bottom order, therefore the JS script should be placed at the end of the html file to ensure that the DOM elements load completely before the JS code begins to execute.</p>
+          <p> Q3 - The onload method executes a script after the web page elements have loaded completely, including stylesheets and images. It is good to load JS in this way because this method waits for all dependent resources to finish loading before executing, which prevents loading errors.</p>
+          <p> Q4 - The data type of cityPop is an array, which contains objects written as key:value pairs (properties). These JS objects resemble Python dictionaries.</p>
+        </div>
+
+        <!--map container-->
+        <div id="mapdiv">
+
+        </div>
+
+        <!--you can also use this space for internal scripts; you would place these within <script> tags-->
+
+        <!--put your external script links here-->
+        <script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="data/megacities.js"></script>
+    </body>
+</html>
